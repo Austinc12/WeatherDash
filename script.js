@@ -75,7 +75,7 @@ function populateCityWeather(city, citySearchList) {
         latitude +
         "&lon=" +
         longitude;
-        //  Forecast not working 
+        //  Forecast not working . 
       $.ajax({
         url: queryURL3,
         method: "GET"
