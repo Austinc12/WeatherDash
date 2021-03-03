@@ -1,0 +1,45 @@
+body {
+  background-color: #217ab6;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heading {
+  background-color: #0c0c0c;
+  color: #fc5555;
+  text-align: center;
+  padding: 10px;
+}
+
+input {
+  width: 75%;
+}
+
+#city-list {
+  width: 22rem;
+}
+
+#city-date-icon,
+#city-name,
+#current-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center/space-around/space-between;
+}
+
+h6 {
+  font-weight: arial;
+}
+
+h4 {
+    margin: 5px;
+}
+
+#forecast-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center/space-between;
+}
+
+.forecast {
+    margin: 10px;
+}
